@@ -1,0 +1,224 @@
+body {
+    height: 1158px;
+    width: 1158px;
+    background-image: url('./Images/Intersection\ .png');
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+#uspravni {
+    position: inherit;
+}
+
+#oboreni {
+    position: relative;
+    overflow: show;
+}
+
+#container1 {
+    position: relative;
+    z-index: -1;
+    background-color: rgb(41, 40, 40);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 200px;
+    width: 70px;
+    margin-top: 130px;
+    margin-left: 370px;
+    padding: 10px;
+}
+
+#container2 {
+    position: relative;
+    z-index: -1;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(41, 40, 40);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 200px;
+    width: 70px;
+    margin-top: 215px;
+    margin-left: 675px;
+    padding: 10px;
+}
+
+#container3 {
+    z-index: 55;
+    position: relative;
+    background-color: rgb(41, 40, 40);
+    border-radius: 25px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 200px;
+    height: 70px;
+    padding: 10px;
+    margin-top: -218px;
+    margin-left: 240px;
+}
+
+#container4 {
+    z-index: 55;
+    position: relative;
+    background-color: rgb(41, 40, 40);
+    border-radius: 25px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 200px;
+    height: 70px;
+    padding: 10px;
+    margin-top: -395px;
+    margin-left: 674px;
+}
+
+.circle1 {
+    background-color: rgba(118, 118, 118, 0.529);
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+.circle2 {
+    background-color: rgba(118, 118, 118, 0.529);
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+.circle3 {
+    background-color: rgba(118, 118, 118, 0.529);
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+.circle4 {
+    background-color: rgba(118, 118, 118, 0.529);
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+.circle1:after {
+    margin-top: 5.5px;
+    margin-left: -2.5px;
+    content: '';
+    z-index: 51;
+    border-radius: 50%;
+    border-right: 4px solid rgba(250, 255, 255, 0.8);
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 50px;
+}
+
+.circle2:after {
+    margin-top: 5.5px;
+    margin-left: -2.5px;
+    content: '';
+    z-index: 51;
+    border-radius: 50%;
+    border-right: 4px solid rgba(250, 255, 255, 0.8);
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 50px;
+}
+
+.circle3:after {
+    margin-top: 5.5px;
+    margin-left: -2.5px;
+    border-radius: 50%;
+    border-right: 4px solid rgba(250, 255, 255, 0.8);
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 50px;
+}
+
+.circle4:after {
+    margin-top: 5.5px;
+    margin-left: -2.5px;
+    border-radius: 50%;
+    border-right: 4px solid rgba(250, 255, 255, 0.8);
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 50px;
+}
+
+#red1 {
+    background-color: red;
+    box-shadow: 0 0 70px red;
+}
+
+#yellow1 {
+    background-color: yellow;
+    box-shadow: 0 0 70px yellow;
+}
+
+#green1 {
+    background-color: rgb(10, 199, 10);
+    box-shadow: 0 0 70px rgb(10, 199, 10);
+}
+
+#red2 {
+    background-color: red;
+    box-shadow: 0 0 70px red;
+}
+
+#yellow2 {
+    background-color: yellow;
+    box-shadow: 0 0 70px yellow;
+}
+
+#green2 {
+    background-color: rgb(10, 199, 10);
+    box-shadow: 0 0 70px rgb(10, 199, 10);
+}
+
+#red3 {
+    background-color: red;
+    box-shadow: 0 0 70px red;
+}
+
+#yellow3 {
+    background-color: yellow;
+    box-shadow: 0 0 70px yellow;
+}
+
+#green3 {
+    background-color: rgb(10, 199, 10);
+    box-shadow: 0 0 70px rgb(10, 199, 10);
+}
+
+#red4 {
+    background-color: red;
+    box-shadow: 0 0 70px red;
+}
+
+#yellow4 {
+    background-color: yellow;
+    box-shadow: 0 0 70px yellow;
+}
+
+#green4 {
+    background-color: rgb(10, 199, 10);
+    box-shadow: 0 0 70px rgb(10, 199, 10);
+}
