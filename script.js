@@ -33,6 +33,16 @@ function startTrafficSignal1() {
     }, 7000);
 
     setTimeout(function() {
+        green1.style.opacity = 0.2;
+        red1.style.opacity = 1;
+        yellow1.style.opacity = 1;
+
+        green2.style.opacity = 0.2;
+        red2.style.opacity = 1;
+        yellow2.style.opacity = 1;
+    }, 9000);
+
+    setTimeout(function() {
         green1.style.opacity = 1;
         red1.style.opacity = 0.2;
         yellow1.style.opacity = 0.2;
@@ -42,9 +52,6 @@ function startTrafficSignal1() {
         yellow2.style.opacity = 0.2;
     }, 12000);
 }
-
-
-
 
 
 function startTraficSignal2() {
@@ -67,6 +74,26 @@ function startTraficSignal2() {
         green4.style.opacity = 0.2;
         red4.style.opacity = 0.2;
         yellow4.style.opacity = 1;
+    }, 1000);
+
+    setTimeout(function() {
+        green3.style.opacity = 0.2;
+        red3.style.opacity = 1;
+        yellow3.style.opacity = 0.2;
+
+        green4.style.opacity = 0.2;
+        red4.style.opacity = 1;
+        yellow4.style.opacity = 0.2;
+    }, 3000);
+
+    setTimeout(function() {
+        green3.style.opacity = 0.2;
+        red3.style.opacity = 1;
+        yellow3.style.opacity = 1;
+
+        green4.style.opacity = 0.2;
+        red4.style.opacity = 1;
+        yellow4.style.opacity = 1;
     }, 5000);
 
     setTimeout(function() {
@@ -78,16 +105,6 @@ function startTraficSignal2() {
         red4.style.opacity = 0.2;
         yellow4.style.opacity = 0.2;
     }, 7000);
-
-    setTimeout(function() {
-        green3.style.opacity = 0.2;
-        red3.style.opacity = 1;
-        yellow3.style.opacity = 0.2;
-
-        green4.style.opacity = 0.2;
-        red4.style.opacity = 1;
-        yellow4.style.opacity = 0.2;
-    }, 12000);
 }
 
 var timer = setInterval(function() {
@@ -96,9 +113,7 @@ var timer = setInterval(function() {
 
 startTrafficSignal1();
 
-
 var timer = setInterval(function() {
     startTraficSignal2();
 }, 12000);
-
 startTraficSignal2();
